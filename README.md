@@ -1,18 +1,16 @@
 # Android Development Internship - ApexPlanet Software Pvt. Ltd.
 
----
+## Project: Student Management App
 
-# Project: Student Management App
+A beginner-friendly Android application developed using Java and Android Studio as part of the Android Development Internship program.
 
-A beginner-friendly Android application developed using Java and Android Studio to learn as part of the Android Development Internship program.
-
-The application demonstrates Android fundamentals including UI design, activity navigation, form handling, API integration, and data fetching.
+The application demonstrates Android fundamentals including UI design, activity navigation, form handling, API integration, Firebase Authentication, and data fetching.
 
 ---
 
 # Task 1 - Onboarding and Environment Setup ✅
 
-### Objectives Completed
+## Objectives Completed
 
 * Installed and configured Android Studio
 * Set up Java development environment
@@ -20,7 +18,7 @@ The application demonstrates Android fundamentals including UI design, activity 
 * Learned Android project structure
 * Built a simple Welcome App
 
-### Technologies Used
+## Technologies Used
 
 * Java
 * Android Studio
@@ -30,7 +28,7 @@ The application demonstrates Android fundamentals including UI design, activity 
 
 # Task 2 - Designing and Implementing UI/UX ✅
 
-### Features Implemented
+## Features Implemented
 
 ### Login Screen
 
@@ -53,7 +51,7 @@ The application demonstrates Android fundamentals including UI design, activity 
 * Save Student button
 * Toast message on successful save
 
-### Concepts Learned
+## Concepts Learned
 
 * Android Activities
 * Intents and Navigation
@@ -67,7 +65,7 @@ The application demonstrates Android fundamentals including UI design, activity 
 
 # Task 3 - Backend Integration and API Development ✅
 
-### Features Implemented
+## Features Implemented
 
 * Integrated REST API using Retrofit
 * Configured Internet Permission
@@ -77,18 +75,18 @@ The application demonstrates Android fundamentals including UI design, activity 
 * Displayed dynamic data in ListView
 * Added error handling for API failures
 
-### API Used
+## API Used
 
 https://jsonplaceholder.typicode.com/users
 
-### Technologies Used
+## Technologies Used
 
 * Retrofit
 * Gson Converter
 * REST API
 * JSON Parsing
 
-### Concepts Learned
+## Concepts Learned
 
 * API Integration
 * Backend Communication
@@ -98,18 +96,97 @@ https://jsonplaceholder.typicode.com/users
 
 ---
 
+# Task 4 - Advanced Features and Testing ✅
+
+## Features Implemented
+
+### Firebase Authentication
+
+* User Registration
+* User Login
+* Firebase Authentication Integration
+* User Session Management
+* Auto Login Functionality
+* Logout Feature
+
+### Testing and Validation
+
+* Empty Input Validation
+* Invalid Login Handling
+* Authentication Testing
+* API Testing
+* Error Message Handling
+
+### Optimization
+
+* Improved User Experience
+* Better Error Messages
+* Session Persistence
+* Code Refactoring and Cleanup
+
+## Technologies Used
+
+* Firebase Authentication
+* Retrofit
+* Gson
+* Android SDK
+
+## Concepts Learned
+
+* User Authentication
+* Firebase Integration
+* Session Management
+* Login and Registration Flow
+* Application Testing
+* Code Optimization
+
+---
+
+# Current Features of Student Management App
+
+### Authentication Module
+
+* User Registration
+* User Login
+* Auto Login
+* Logout
+
+### Student Management Module
+
+* Add Student
+* View Student List
+* Dashboard Navigation
+
+### Backend Integration
+
+* Live API Data Fetching
+* JSON Parsing
+* Error Handling
+
+---
+
 # Project Structure
 
 ```text
 StudentManagementApp
 │
-├── MainActivity (Login Screen)
+├── MainActivity
+│   ├── User Registration
+│   ├── User Login
+│   └── Auto Login
+│
 ├── DashboardActivity
+│   ├── Student Dashboard
+│   ├── API Data Display
+│   └── Logout Functionality
+│
 ├── AddStudentActivity
 │
 ├── User.java
 ├── ApiService.java
-└── RetrofitClient.java
+├── RetrofitClient.java
+│
+└── Firebase Authentication
 ```
 
 ---
@@ -119,8 +196,10 @@ StudentManagementApp
 * Java
 * Android Studio
 * XML
+* Firebase Authentication
 * Retrofit
 * Gson
+* REST API
 * ListView
 * Git & GitHub
 
@@ -133,7 +212,7 @@ StudentManagementApp
 | Task 1 - Onboarding & Environment Setup        | ✅ Completed |
 | Task 2 - UI/UX Design & Implementation         | ✅ Completed |
 | Task 3 - Backend Integration & API Development | ✅ Completed |
-| Task 4 - Advanced Features & Testing           | ⏳ Upcoming  |
+| Task 4 - Advanced Features & Testing           | ✅ Completed |
 | Task 5 - Finalization & Deployment             | ⏳ Upcoming  |
 
 ---
@@ -142,14 +221,17 @@ StudentManagementApp
 
 Through this internship, I gained practical experience in:
 
-* Android application development
-* UI/UX implementation
-* Activity navigation
-* Form handling
-* REST API integration
-* JSON parsing
-* Error handling
-* Version control using Git and GitHub
+* Android Application Development
+* UI/UX Design
+* Activity Navigation
+* Form Handling
+* REST API Integration
+* JSON Parsing
+* Firebase Authentication
+* User Session Management
+* Error Handling and Debugging
+* Application Testing
+* Version Control using Git and GitHub
 
 ---
 
