@@ -6,6 +6,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
+import com.google.firebase.auth.FirebaseAuth;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -19,6 +20,7 @@ import retrofit2.Response;
 public class DashboardActivity extends AppCompatActivity {
 
     Button btnAddStudent;
+    Button btnLogout;
 
     ListView listView;
     ArrayList<String> studentList;
@@ -32,6 +34,7 @@ public class DashboardActivity extends AppCompatActivity {
         // Initialize views
         listView = findViewById(R.id.listViewStudents);
         btnAddStudent = findViewById(R.id.btnAddStudent);
+        btnLogout = findViewById(R.id.btnLogout);
 
         // Setup list and adapter
         studentList = new ArrayList<>();
@@ -71,6 +74,19 @@ public class DashboardActivity extends AppCompatActivity {
             Intent intent = new Intent(DashboardActivity.this,
                     AddStudentActivity.class);
             startActivity(intent);
+        });
+
+        btnLogout.setOnClickListener(v -> {
+
+            FirebaseAuth.getInstance().signOut();
+
+            Intent intent = new Intent(
+                    DashboardActivity.this,
+                    MainActivity.class
+            );
+
+            startActivity(intent);
+            finish();
         });
     }
 }

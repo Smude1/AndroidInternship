@@ -23,6 +23,17 @@ public class MainActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
 
+        // Auto-login: if user is already signed in, go straight to Dashboard
+        if (mAuth.getCurrentUser() != null) {
+            startActivity(
+                    new Intent(
+                            MainActivity.this,
+                            DashboardActivity.class
+                    )
+            );
+            finish();
+        }
+
         etEmail = findViewById(R.id.etEmail);
         etPassword = findViewById(R.id.etPassword);
 
