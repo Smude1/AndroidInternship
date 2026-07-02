@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Student Management</string>
+
+    <!-- Authentication Strings -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="login_successful">Login Successful!</string>
+    <string name="registration_successful">Registration Successful!</string>
+    <string name="invalid_credentials">Invalid Credentials. Please try again.</string>
+    <string name="empty_fields_error">Please enter both email and password</string>
+    <string name="invalid_email_error">Please enter a valid email address</string>
+    <string name="password_short_error">Password must be at least 6 characters</string>
+    <string name="auth_error">Authentication Error: %s</string>
+
+    <!-- Dashboard Strings -->
+    <string name="dashboard_title">Student Dashboard</string>
+    <string name="add_student">Add Student</string>
+    <string name="logout">Logout</string>
+    <string name="logout_confirm">Are you sure you want to logout?</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_students">No students yet. Add one to get started!</string>
+    <string name="students_count">Total Students: %d</string>
+    <string name="students_count_default">Total Students: 0</string>
+    <string name="loading">Loading...</string>
+    <string name="api_users">API Users</string>
+    <string name="api_user_label">API User (Read Only)</string>
+    <string name="local_students">Local Students</string>
+    <string name="failed_to_load">Failed to load data</string>
+    <string name="failed_to_load_student">Unable to load student for edit</string>
+    <string name="api_user_edit_not_allowed">API users cannot be edited</string>
+
+    <!-- Add Student Strings -->
+    <string name="add_student_title">Add New Student</string>
+    <string name="student_name">Student Name</string>
+    <string name="student_name_hint">Enter student name</string>
+    <string name="roll_number">Roll Number</string>
+    <string name="roll_number_hint">e.g., 001</string>
+    <string name="email_label">Email</string>
+    <string name="email_hint_label">Enter email address</string>
+    <string name="course">Course</string>
+    <string name="course_hint">e.g., Computer Science</string>
+    <string name="save">Save</string>
+    <string name="save_student">Save Student</string>
+    <string name="student_saved">Student saved successfully!</string>
+    <string name="student_updated">Student updated successfully!</string>
+    <string name="empty_name_error">Please enter student name</string>
+    <string name="empty_roll_error">Please enter roll number</string>
+    <string name="empty_course_error">Please enter course</string>
+
+    <!-- Edit/Delete Strings -->
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="delete_student_confirm">Are you sure you want to delete this student?</string>
+    <string name="student_deleted">Student deleted successfully!</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="remove_from_favorites">Remove from Favorites</string>
+    <string name="search">Search</string>
+    <string name="search_students">Search students...</string>
+    <string name="details">Details</string>
+    <string name="student_details">Student Details</string>
+    <string name="source">Source</string>
+
+    <!-- Buttons -->
+    <string name="edit_student_title">Edit Student</string>
+    <string name="update">Update</string>
+</resources>
